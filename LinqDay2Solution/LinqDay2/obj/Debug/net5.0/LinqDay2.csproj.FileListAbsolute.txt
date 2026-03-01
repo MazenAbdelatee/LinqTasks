@@ -1,0 +1,16 @@
+D:\DEPI\C#\C# tasks\LinqTasks\LinqDay2Solution\LinqDay2\bin\Debug\net5.0\LinqDay2.exe
+D:\DEPI\C#\C# tasks\LinqTasks\LinqDay2Solution\LinqDay2\bin\Debug\net5.0\LinqDay2.deps.json
+D:\DEPI\C#\C# tasks\LinqTasks\LinqDay2Solution\LinqDay2\bin\Debug\net5.0\LinqDay2.runtimeconfig.json
+D:\DEPI\C#\C# tasks\LinqTasks\LinqDay2Solution\LinqDay2\bin\Debug\net5.0\LinqDay2.runtimeconfig.dev.json
+D:\DEPI\C#\C# tasks\LinqTasks\LinqDay2Solution\LinqDay2\bin\Debug\net5.0\LinqDay2.dll
+D:\DEPI\C#\C# tasks\LinqTasks\LinqDay2Solution\LinqDay2\bin\Debug\net5.0\LinqDay2.pdb
+D:\DEPI\C#\C# tasks\LinqTasks\LinqDay2Solution\LinqDay2\obj\Debug\net5.0\LinqDay2.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEPI\C#\C# tasks\LinqTasks\LinqDay2Solution\LinqDay2\obj\Debug\net5.0\LinqDay2.AssemblyInfoInputs.cache
+D:\DEPI\C#\C# tasks\LinqTasks\LinqDay2Solution\LinqDay2\obj\Debug\net5.0\LinqDay2.AssemblyInfo.cs
+D:\DEPI\C#\C# tasks\LinqTasks\LinqDay2Solution\LinqDay2\obj\Debug\net5.0\LinqDay2.csproj.CoreCompileInputs.cache
+D:\DEPI\C#\C# tasks\LinqTasks\LinqDay2Solution\LinqDay2\obj\Debug\net5.0\LinqDay2.sourcelink.json
+D:\DEPI\C#\C# tasks\LinqTasks\LinqDay2Solution\LinqDay2\obj\Debug\net5.0\LinqDay2.dll
+D:\DEPI\C#\C# tasks\LinqTasks\LinqDay2Solution\LinqDay2\obj\Debug\net5.0\refint\LinqDay2.dll
+D:\DEPI\C#\C# tasks\LinqTasks\LinqDay2Solution\LinqDay2\obj\Debug\net5.0\LinqDay2.pdb
+D:\DEPI\C#\C# tasks\LinqTasks\LinqDay2Solution\LinqDay2\obj\Debug\net5.0\LinqDay2.genruntimeconfig.cache
+D:\DEPI\C#\C# tasks\LinqTasks\LinqDay2Solution\LinqDay2\obj\Debug\net5.0\ref\LinqDay2.dll
