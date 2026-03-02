@@ -63,8 +63,32 @@ namespace LinqDay2
 
             #endregion
 
-            #region Four
+            #region Order Operator
+            // 1
+            //var sortedByName = ProductList.OrderBy(P => P.ProductName)
+            //                              .ThenBy(P => P.ProductID );
+            //PrintList(sortedByName);
 
+            //3
+            //var SortedByDesc = ProductList.OrderByDescending(P=> P.UnitsInStock);
+            //PrintList(SortedByDesc);
+
+            //4
+            //string[] Arr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight","nine" };
+            //var result =  Arr.OrderBy(Name => Name.Length)
+            //                 .ThenBy(Name => Name);
+            //PrintList(result);
+
+            ////5
+            //string[] words = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+            //var result =words.OrderBy(W => W.Length)
+            //                 .ThenBy(W =>W, StringComparer.OrdinalIgnoreCase);
+            //PrintList(result);
+
+            //6
+            //var result =ProductList.OrderBy(P => P.Category)
+            //                       .ThenByDescending(P => P.UnitPrice);
+            //PrintList(result);
             #endregion
 
             #region Five
