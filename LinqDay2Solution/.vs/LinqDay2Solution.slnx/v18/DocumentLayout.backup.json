@@ -14,21 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DEPI\\C#\\C# tasks\\LinqTasks\\LinqDay2Solution\\LinqDay2\\Program.cs",
               "RelativeDocumentMoniker": "LinqDay2\\Program.cs",
-              "ToolTip": "D:\\DEPI\\C#\\C# tasks\\LinqTasks\\LinqDay2Solution\\LinqDay2\\Program.cs",
-              "RelativeToolTip": "LinqDay2\\Program.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAQwFsAAAAWAAAAAAAAAA==",
+              "ToolTip": "D:\\DEPI\\C#\\C# tasks\\LinqTasks\\LinqDay2Solution\\LinqDay2\\Program.cs*",
+              "RelativeToolTip": "LinqDay2\\Program.cs*",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAswKUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T20:01:10.712Z",
               "EditorCaption": ""

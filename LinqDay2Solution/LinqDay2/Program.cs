@@ -113,6 +113,59 @@ namespace LinqDay2
             // 3
             //var FewerInforamation = ProductList.Select(P => new { ID = P.ProductID , Name = P.ProductName , Price = P.UnitPrice  });
             //PrintList(FewerInforamation);
+
+            // 4
+            //int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+            //var InPostion = Arr.Select((Number, Index) => Number == Index);
+            //PrintList(InPostion);
+
+            // 5
+            //int[] numbersA = { 0, 2, 4, 5, 6, 8, 9 };
+            //int[] numbersB = { 1, 3, 5, 7, 8 };
+            //var pairs = numbersA.SelectMany(a => numbersB, (a, b) => new { a, b })
+            //        .Where(pair => pair.a < pair.b);
+
+            // 6
+            //var lessThan500 = CustomerList.Where(C => C.Orders!=null)
+            //                              .SelectMany(C => C.Orders)
+            //                              .Where(C => C.Total < 500);
+            //PrintList(lessThan500);
+
+            // 7
+            //var Before1998 = CustomerList.SelectMany(x => x.Orders)
+            //                             .Where(C => C.OrderDate.Year < 1998);
+            //PrintList(Before1998);
+            #endregion
+
+            #region Aggregate Operators 
+            // 1
+            int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+            //var numOfOdds = Arr.Count(N => N%2 !=0);
+            //Console.WriteLine(numOfOdds);
+
+            // 2
+            //var OrdersOfCustomer = CustomerList.Where(C => C.Orders.Any());
+            //PrintList(OrdersOfCustomer);
+
+            // 3
+            //var numOfProductPerCategory =ProductList.Select
+            //                            (P => new { Categorey = P.Category,Products = P.Category.Count() });
+            //PrintList(numOfProductPerCategory);
+
+            // 4
+            //var totalNum = Arr.Count();
+            //Console.WriteLine(totalNum);
+
+            // 6
+            //var categoryStock = ProductList.GroupBy(p => p.Category)
+            //                    .Select(group => new
+            //                    {
+            //                        Category = group.Key,
+            //                        TotalStock = group.Sum(p => p.UnitsInStock)
+            //                    });
+            //PrintList(categoryStock);
+
+
             #endregion
 
         }
