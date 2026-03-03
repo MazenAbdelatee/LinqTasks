@@ -69,30 +69,50 @@ namespace LinqDay2
             //                              .ThenBy(P => P.ProductID );
             //PrintList(sortedByName);
 
-            //3
+            // 3
             //var SortedByDesc = ProductList.OrderByDescending(P=> P.UnitsInStock);
             //PrintList(SortedByDesc);
 
-            //4
+            // 4
             //string[] Arr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight","nine" };
             //var result =  Arr.OrderBy(Name => Name.Length)
             //                 .ThenBy(Name => Name);
             //PrintList(result);
 
-            ////5
+            // 5
             //string[] words = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
             //var result =words.OrderBy(W => W.Length)
             //                 .ThenBy(W =>W, StringComparer.OrdinalIgnoreCase);
             //PrintList(result);
 
-            //6
+            // 6
             //var result =ProductList.OrderBy(P => P.Category)
             //                       .ThenByDescending(P => P.UnitPrice);
             //PrintList(result);
+
+            // 7
+            //string[] Arr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+            //var result = Arr.Where(word => word.Length > 1 && word[1] == 'i')
+            //                .Reverse();
+            //PrintList(result);
+
+
+
             #endregion
 
-            #region Five
+            #region Transformation Operator
+            // 1
+            //var ProductNames = ProductList.Select(P => new { P.ProductName });
+            //PrintList(ProductNames);
 
+            // 2
+            //string[] words = { "aPPLE", "BlUeBeRrY", "cHeRry" };
+            //var LowerCaseProducts = words.Select(P => new { Lower = P.ProductName.ToLower() });
+            //var UpperCaseProducts = words.Select(P => new { Upper = P.ProductName.ToUpper() });
+
+            // 3
+            //var FewerInforamation = ProductList.Select(P => new { ID = P.ProductID , Name = P.ProductName , Price = P.UnitPrice  });
+            //PrintList(FewerInforamation);
             #endregion
 
         }
