@@ -139,7 +139,7 @@ namespace LinqDay2
 
             #region Aggregate Operators 
             // 1
-            int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+            //int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
             //var numOfOdds = Arr.Count(N => N%2 !=0);
             //Console.WriteLine(numOfOdds);
 
@@ -166,8 +166,94 @@ namespace LinqDay2
             //PrintList(categoryStock);
 
 
+            // 8 
+            //var CheapestProducts = ProductList.GroupBy(P => P.Category)
+            //    .Select(P => new {
+            //        Category = P.Key,
+            //        ProductName = P.Where(U => U.UnitPrice == P.Min(min => min.UnitPrice))
+            //                       .Select(U => U.ProductName).FirstOrDefault(),
+            //        MinPrice = P.Min(P => P.UnitPrice)
+            //    });
+            //PrintList(CheapestProducts);
+
+            // 9
+            //var cheapestProducts = from P in ProductList
+            //                       group P by P.Category into G
+            //                       let minPrice = G.Min(V => V.UnitPrice)
+            //                       select new
+            //                       {
+            //                           Category = G.Key,
+            //                           ProductName = G.FirstOrDefault(X => X.UnitPrice == minPrice).ProductName,
+            //                           Price = minPrice,
+            //                       };
+            //PrintList(cheapestProducts);
+
+            // 10
+            //var MostExpensiveProducts = from P in ProductList
+            //                            group P by P.Category into G
+            //                            let MaxPrice = G.Max(V => V.UnitPrice)
+            //                            select new
+            //                            {
+            //                                Category = G.Key,
+            //                                MostExpensive = G.Where(X => X.UnitPrice == MaxPrice),
+            //                                Price = MaxPrice,
+            //                            };
+
+
+            // 11
+            //var averagePrices = ProductList.GroupBy(G => G.Category)
+            //                               .Select(P => new {
+            //                                   Category = P.Key ,
+            //                                   AveragePrice = P.Average(U => U.UnitPrice)
+            //                               }); 
+
+            //PrintList(averagePrices);
             #endregion
 
+            #region Partionting Operators 
+            // 1
+            //var WashingtonCustomers = CustomerList.Where(C => C.City == "Washington")
+            //                                      .Select(C => new
+            //                                      {
+            //                                          CustomerName = C.Name,
+            //                                          First3Order = C.Orders.Take(3)
+            //                                      });
+            //PrintList(WashingtonCustomers);
+
+
+            // 2 
+            //var WashingtonCustomers = CustomerList.Where(C => C.City == "Washington")
+            //                                .Select(C => new
+            //                                {
+            //                                    CustomerName = C.Name,
+            //                                    First3Order = C.Orders.Skip(3)
+            //                                });
+            //PrintList(WashingtonCustomers);
+
+
+            //int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+            // 3
+            //var task3 = numbers.TakeWhile((n, index) => n >= index);
+            //PrintList(task3);
+
+            // 4 
+            //var task4 = numbers.SkipWhile(n => n % 3 != 0);
+            //PrintList(task4);
+
+            // 5
+            //var task5 = numbers.SkipWhile((n, index) => n >= index);
+            //PrintList(task5);
+            #endregion
+
+            #region Quantifier Operators
+            // 2
+            //var hasOut = ProductList.GroupBy(p => p.Category).Where(g => g.Any(p => p.UnitsInStock == 0));
+            //PrintList(hasOut);
+
+            // 3
+            //var allIn = ProductList.GroupBy(p => p.Category).Where(g => g.All(p => p.UnitsInStock > 0));
+            //PrintList(allIn);
+            #endregion
         }
 
         public static void PrintList<T> (IEnumerable<T> List) {

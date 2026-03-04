@@ -235,7 +235,7 @@ namespace day10_G01
 
             CustomerList = new List<Customer>()
             {
-                 new Customer
+                new Customer
             {
                 Id = 212,
                 Name = "Ahmed Ali",
@@ -255,44 +255,44 @@ namespace day10_G01
                     new Order { Id = 11011, OrderDate = new DateTime(1998, 4, 9), Total = 933.50 },
                 }
             },
-            new Customer
-            {
-                Id = 323,
-                Name = "Ana Trujillo Emparedados y helados",
-                Address = "Avda. de la Constitución 2222",
-                City = "México D.F.",
-                PostalCode = "05021",
-                Country = "Mexico",
-                Phone = "(5) 555-4729",
-                Fax = "(5) 555-3745",
-                Orders = new Order[]
+                new Customer
                 {
-                    new Order { Id = 10308, OrderDate = new DateTime(1996, 9, 18), Total = 88.80 },
-                    new Order { Id = 10625, OrderDate = new DateTime(1997, 8, 8), Total = 479.75 },
-                    new Order { Id = 10759, OrderDate = new DateTime(1997, 11, 28), Total = 320.00 },
-                    new Order { Id = 10926, OrderDate = new DateTime(1998, 3, 4), Total = 514.40 },
-                }
-            },
-            new Customer
-            {
-                Id = 0, // Default value for non-integer ID
-                Name = "Antonio Moreno Taquería",
-                Address = "Mataderos 2312",
-                City = "México D.F.",
-                PostalCode = "05023",
-                Country = "Mexico",
-                Phone = "(5) 555-3932",
-                Orders = new Order[]
+                    Id = 323,
+                    Name = "Ana Trujillo Emparedados y helados",
+                    Address = "Avda. de la Constitución 2222",
+                    City = "México D.F.",
+                    PostalCode = "05021",
+                    Country = "Mexico",
+                    Phone = "(5) 555-4729",
+                    Fax = "(5) 555-3745",
+                    Orders = new Order[]
+                    {
+                        new Order { Id = 10308, OrderDate = new DateTime(1996, 9, 18), Total = 88.80 },
+                        new Order { Id = 10625, OrderDate = new DateTime(1997, 8, 8), Total = 479.75 },
+                        new Order { Id = 10759, OrderDate = new DateTime(1997, 11, 28), Total = 320.00 },
+                        new Order { Id = 10926, OrderDate = new DateTime(1998, 3, 4), Total = 514.40 },
+                    }
+                },
+                new Customer
                 {
-                    new Order { Id = 10365, OrderDate = new DateTime(1996, 11, 27), Total = 403.20 },
-                    new Order { Id = 10507, OrderDate = new DateTime(1997, 4, 15), Total = 749.06 },
-                    new Order { Id = 10535, OrderDate = new DateTime(1997, 5, 13), Total = 1940.85 },
-                    new Order { Id = 10573, OrderDate = new DateTime(1997, 6, 19), Total = 2082.00 },
-                    new Order { Id = 10677, OrderDate = new DateTime(1997, 9, 22), Total = 813.36 },
-                    new Order { Id = 10682, OrderDate = new DateTime(1997, 9, 25), Total = 375.50 },
-                    new Order { Id = 10856, OrderDate = new DateTime(1998, 1, 28), Total = 660.00 },
+                    Id = 0, // Default value for non-integer ID
+                    Name = "Antonio Moreno Taquería",
+                    Address = "Mataderos 2312",
+                    City = "México D.F.",
+                    PostalCode = "05023",
+                    Country = "Mexico",
+                    Phone = "(5) 555-3932",
+                    Orders = new Order[]
+                    {
+                        new Order { Id = 10365, OrderDate = new DateTime(1996, 11, 27), Total = 403.20 },
+                        new Order { Id = 10507, OrderDate = new DateTime(1997, 4, 15), Total = 749.06 },
+                        new Order { Id = 10535, OrderDate = new DateTime(1997, 5, 13), Total = 1940.85 },
+                        new Order { Id = 10573, OrderDate = new DateTime(1997, 6, 19), Total = 2082.00 },
+                        new Order { Id = 10677, OrderDate = new DateTime(1997, 9, 22), Total = 813.36 },
+                        new Order { Id = 10682, OrderDate = new DateTime(1997, 9, 25), Total = 375.50 },
+                        new Order { Id = 10856, OrderDate = new DateTime(1998, 1, 28), Total = 660.00 },
+                    }
                 }
-            }
             };
         }
     }
